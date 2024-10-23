@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "codewarf"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Frontend devloper."
+  location         : "Seoul, Rep. of Korea"
   email            :
   links:
     - label: "Email"
