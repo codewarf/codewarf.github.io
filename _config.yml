@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "codewarf"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/my-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Frontend devloper."
   location         : "Seoul, Rep. of Korea"
   email            :
