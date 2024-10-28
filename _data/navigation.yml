@@ -1,12 +1,23 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Portfolio"
+    url: /portfolio/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+main-sidebar:
+  - title: 'Front-End'
+    url: '/front-end/'
+    children:
+      - title: 'HTML'
+        url: '/front-end/html/'
+      - title: 'CSS'
+        url: '/front-end/css/'
+      # - title: 'Web UI/UX'
+      #   url: '/front-end/web-ui/'
+      # - title: 'React'
+      #   url: '/front-end/react/'
