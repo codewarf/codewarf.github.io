@@ -14,12 +14,13 @@ main-sidebar:
     url: '/front-end/'
     children:
       - title: 'HTML'
-        url: '/front-end/html/'
+        url: '/categories/html'
+        category: "html"
       - title: 'CSS'
-        url: '/front-end/css/'
+        url: '/categories/css/'
       - title: 'JavaScript'
-        url: '/front-end/JavaScript/'  
+        url: '/categories/JavaScript/'  
       - title: 'React'
-        url: '/front-end/react/'
+        url: '/categories/react/'
       - title: 'Web UI/UX'
-        url: '/front-end/web-ui/'
+        url: '/categories/web-ui/'
