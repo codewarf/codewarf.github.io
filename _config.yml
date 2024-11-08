@@ -319,7 +319,7 @@ defaults:
       layout: home
       author_profile: true
       sidebar:
-        nav: main-sidebar
+        nav: "main-sidebar"
   # _posts
   - scope:
       path: ""
@@ -332,5 +332,5 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: main-sidebar
+        nav: "main-sidebar"
 
