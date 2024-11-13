@@ -14,7 +14,7 @@ main-sidebar:
     children:
       - title: 'HTML'
         url: '/categories/html/'
-        category: "html"
+        category: 'html'
       - title: 'CSS'
         url: '/categories/css/'
       - title: 'JavaScript'
