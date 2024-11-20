@@ -215,6 +215,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "main-sidebar"
   # _pages
   - scope:
       path: "_pages"
@@ -222,6 +224,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: "main-sidebar"
   # _docs
   - scope:
       path: ""
@@ -234,7 +238,7 @@ defaults:
       comments: false
       toc_sticky: true
       sidebar:
-        nav: "docs"
+        nav: "main-sidebar"
   # _recipes
   - scope:
       path: ""
