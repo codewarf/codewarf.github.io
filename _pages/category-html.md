@@ -1,7 +1,7 @@
  ---
  title: "HTML"
  layout: archive
- permalink: /categories/html
+ permalink: /html
  author_profile: true
  type: posts
  sidebar:

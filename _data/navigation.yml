@@ -13,7 +13,7 @@ main-sidebar:
   - title: 'Front-End'
     children:
       - title: 'HTML'
-        url: '/categories/html/'
+        url: '/html/'
         category: 'html'
       - title: 'CSS'
         url: '/categories/css/'
