@@ -17,6 +17,7 @@ main-sidebar:
         category: 'html'
       - title: 'CSS'
         url: '/categories/css/'
+        category: 'css'
       - title: 'JavaScript'
         url: '/categories/JavaScript/'  
       - title: 'React'
