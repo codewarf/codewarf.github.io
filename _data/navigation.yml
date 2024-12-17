@@ -24,3 +24,7 @@ main-sidebar:
         url: '/categories/react/'
       - title: 'Web UI/UX'
         url: '/categories/web-ui/'
+  - title: 'ETC'
+    children:
+      - title: '블로그 관리'
+        url: '/categories/blog/'
