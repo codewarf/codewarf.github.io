@@ -1,3 +1,14 @@
+---
+published: true
+title: "Java Script 이론 정리(1)"
+date: 2025-01-23
+toc: true
+toc_sticky: true
+category: 
+  - javascript
+tags:
+  - javascript이론
+---
 본문은 앞으로 공부하고 정리해보며 기억하기 위해 정리해 본 글입니다.
 
 자바스크립트는 웹 개발에서 가장 널리 사용되는 프로그래밍 언어 중 하나이다. 클라이언트 측 동적 웹 페이지를 만들기 위해 주로 사용되지만, 최근에는 서버 사이드(Node.js)에서도 활발히 사용되고있다.  

@@ -1,4 +1,13 @@
-
+---
+published: true
+title: "Java Script 이론 정리(2)"
+date: 2025-01-24
+toc: true
+toc_sticky: true
+category: 
+  - javascript
+tags:
+  - javascript이론
 ---
 
 ## **18. Proxy와 Reflect**
