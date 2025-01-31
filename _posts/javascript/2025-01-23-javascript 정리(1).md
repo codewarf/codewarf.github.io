@@ -423,7 +423,7 @@ console.log(name ?? "기본값");  // "기본값"
 ```
 
 ### **(3) BigInt**
-매우 큰 정수를 다룰 수 있어다.
+매우 큰 정수를 다룰 수 있다.
 ```javascript
 const bigNumber = 9007199254740991n;
 console.log(bigNumber + 1n);  // 9007199254740992n
