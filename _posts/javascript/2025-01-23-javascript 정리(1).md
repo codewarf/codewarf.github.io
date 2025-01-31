@@ -1,4 +1,4 @@
-본문은 앞으로 공부하고 정리해보며 기억하기 위해 정리해 본 글입니다
+본문은 앞으로 공부하고 정리해보며 기억하기 위해 정리해 본 글입니다.
 
 자바스크립트는 웹 개발에서 가장 널리 사용되는 프로그래밍 언어 중 하나이다. 클라이언트 측 동적 웹 페이지를 만들기 위해 주로 사용되지만, 최근에는 서버 사이드(Node.js)에서도 활발히 사용되고있다.  
 
@@ -16,7 +16,7 @@
 ## **2. 변수와 자료형**  
 ### **(1) 변수 선언 방식**
 ```javascript
-var name = "홍길동"; // 함수 범위, 재선언 가능 (사용 지양)
+var name = "박일범"; // 함수 범위, 재선언 가능 (사용 지양)
 let age = 25; // 블록 범위, 재선언 불가능
 const PI = 3.14; // 블록 범위, 값 변경 불가능
 ```
@@ -115,14 +115,14 @@ console.log(add(3, 5)); // 8
 ### **(1) 객체**
 ```javascript
 let person = {
-    name: "홍길동",
+    name: "박일범",
     age: 30,
     greet: function() {
         console.log("안녕하세요, 저는 " + this.name + "입니다.");
     }
 };
-console.log(person.name); // 홍길동
-person.greet(); // 안녕하세요, 저는 홍길동입니다.
+console.log(person.name); // 박일범
+person.greet(); // 안녕하세요, 저는 박일범입니다.
 ```
 ### **(2) 배열**
 ```javascript
@@ -180,7 +180,7 @@ document.querySelector("button").addEventListener("click", function() {
 ---
 
 ## **10. 클래스와 객체 지향 프로그래밍 (OOP)**  
-자바스크립트는 프로토타입 기반 객체지향 언어지만, ES6부터 `class` 문법이 도입되어 더욱 직관적으로 객체를 생성할 수 있어요.  
+자바스크립트는 프로토타입 기반 객체지향 언어지만, ES6부터 `class` 문법이 도입되어 더욱 직관적으로 객체를 생성할 수 있다.  
 
 ### **(1) 클래스 선언 및 인스턴스 생성**
 ```javascript
@@ -195,8 +195,8 @@ class Person {
     }
 }
 
-const person1 = new Person("홍길동", 30);
-person1.greet(); // 안녕하세요, 저는 홍길동입니다.
+const person1 = new Person("박일범범", 30);
+person1.greet(); // 안녕하세요, 저는 박일범입니다.
 ```
 
 ### **(2) 상속 (Inheritance)**
@@ -220,8 +220,8 @@ student1.study();
 ---
 
 ## **11. 모듈 시스템 (Modules)**  
-큰 프로젝트에서는 코드를 여러 파일로 나누어 관리하는 것이 좋아요.  
-ES6부터 `export`와 `import`를 사용한 모듈화가 가능해졌어요.
+큰 프로젝트에서는 코드를 여러 파일로 나누어 관리하는 것이 좋다.  
+ES6부터 `export`와 `import`를 사용한 모듈화가 가능해졌다.
 
 ### **(1) 모듈 내보내기 (`export`)**
 ```javascript
@@ -259,7 +259,7 @@ console.log(multiply(3, 4)); // 12
 ---
 
 ## **12. 에러 처리 (Error Handling)**
-에러가 발생하면 프로그램이 멈출 수 있기 때문에 예외 처리가 중요해요.  
+에러가 발생하면 프로그램이 멈출 수 있기 때문에 예외 처리가 중요하다.  
 
 ### **(1) `try...catch` 문**
 ```javascript
@@ -290,36 +290,36 @@ try {
 ---
 
 ## **13. JSON과 데이터 통신**  
-웹 개발에서는 서버와 데이터를 주고받을 때 JSON(JavaScript Object Notation)을 많이 사용해요.
+웹 개발에서는 서버와 데이터를 주고받을 때 JSON(JavaScript Object Notation)을 많이 사용한다.
 
 ### **(1) 객체를 JSON 문자열로 변환 (`JSON.stringify()`)**
 ```javascript
-const user = { name: "홍길동", age: 30 };
+const user = { name: "박일범", age: 30 };
 const jsonString = JSON.stringify(user);
 
-console.log(jsonString); // '{"name":"홍길동","age":30}'
+console.log(jsonString); // '{"name":"박일범","age":30}'
 ```
 
 ### **(2) JSON 문자열을 객체로 변환 (`JSON.parse()`)**
 ```javascript
 const parsedData = JSON.parse(jsonString);
-console.log(parsedData.name); // 홍길동
+console.log(parsedData.name); // 박일범
 ```
 
 ---
 
 ## **14. 로컬 스토리지 (Local Storage)**
-브라우저에 데이터를 저장하는 방법 중 하나예요.  
+브라우저에 데이터를 저장하는 방법 중 하나이다.  
 
 ### **(1) 데이터 저장 (`localStorage.setItem()`)**
 ```javascript
-localStorage.setItem("username", "홍길동");
+localStorage.setItem("username", "박일범");
 ```
 
 ### **(2) 데이터 가져오기 (`localStorage.getItem()`)**
 ```javascript
 const name = localStorage.getItem("username");
-console.log(name); // 홍길동
+console.log(name); // 박일범
 ```
 
 ### **(3) 데이터 삭제**
@@ -331,11 +331,11 @@ localStorage.clear(); // 전체 삭제
 ---
 
 ## **15. 이벤트 루프와 비동기 처리**
-자바스크립트는 싱글 스레드로 동작하지만, 비동기 처리를 효율적으로 수행할 수 있어요.  
+자바스크립트는 싱글 스레드로 동작하지만, 비동기 처리를 효율적으로 수행할 수 있다.  
 
 ### **(1) 이벤트 루프 (Event Loop)**
-이벤트 루프는 자바스크립트가 비동기 작업을 어떻게 처리하는지 설명하는 개념이에요.  
-브라우저는 **콜 스택(Call Stack)**과 **태스크 큐(Task Queue)**를 활용해 비동기 코드를 실행해요.
+이벤트 루프는 자바스크립트가 비동기 작업을 어떻게 처리하는지 설명하는 개념이다.  
+브라우저는 **콜 스택(Call Stack)**과 **태스크 큐(Task Queue)**를 활용해 비동기 코드를 실행한다.
 
 ```javascript
 console.log("시작");
@@ -355,10 +355,10 @@ console.log("끝");
 ---
 
 ## **16. 자바스크립트 디자인 패턴**
-자바스크립트에서 자주 사용하는 패턴들이 있어요.
+자바스크립트에서 자주 사용하는 패턴들이 있다.
 
 ### **(1) 싱글톤 패턴 (Singleton Pattern)**
-객체를 하나만 생성하도록 제한하는 패턴이에요.  
+객체를 하나만 생성하도록 제한하는 패턴이다.  
 ```javascript
 const Singleton = (function() {
     let instance;
@@ -382,7 +382,7 @@ console.log(a === b); // true (같은 인스턴스)
 ```
 
 ### **(2) 모듈 패턴 (Module Pattern)**
-클로저를 활용하여 데이터를 은닉하는 패턴이에요.  
+클로저를 활용하여 데이터를 은닉하는 패턴이다.  
 ```javascript
 const Counter = (function() {
     let count = 0;
@@ -408,7 +408,7 @@ Counter.decrement(); // 1
 
 ## **17. 최신 자바스크립트(ES2020+) 문법**
 ### **(1) 옵셔널 체이닝 (`?.`)**
-객체의 속성이 존재하지 않을 때 에러 없이 `undefined`를 반환해요.
+객체의 속성이 존재하지 않을 때 에러 없이 `undefined`를 반환한다.
 ```javascript
 const user = { name: "홍길동", address: { city: "서울" } };
 console.log(user.address?.city);  // "서울"
@@ -416,14 +416,14 @@ console.log(user.company?.name);  // undefined
 ```
 
 ### **(2) 널 병합 연산자 (`??`)**
-`null` 또는 `undefined`일 때 기본값을 지정할 수 있어요.
+`null` 또는 `undefined`일 때 기본값을 지정할 수 있다.
 ```javascript
 const name = null;
 console.log(name ?? "기본값");  // "기본값"
 ```
 
 ### **(3) BigInt**
-매우 큰 정수를 다룰 수 있어요.
+매우 큰 정수를 다룰 수 있어다.
 ```javascript
 const bigNumber = 9007199254740991n;
 console.log(bigNumber + 1n);  // 9007199254740992n
