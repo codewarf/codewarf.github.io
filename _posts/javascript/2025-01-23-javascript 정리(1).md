@@ -206,7 +206,7 @@ class Person {
     }
 }
 
-const person1 = new Person("박일범범", 30);
+const person1 = new Person("박일범", 30);
 person1.greet(); // 안녕하세요, 저는 박일범입니다.
 ```
 
