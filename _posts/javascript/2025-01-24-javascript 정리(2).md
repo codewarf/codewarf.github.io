@@ -439,3 +439,4 @@ worker.onmessage = event => {
 📌 WebAssembly를 활용하면 연산 속도를 네이티브 수준으로 끌어올릴 수 있다.
 
 ---
+추후 수정과 정리가 필요함
