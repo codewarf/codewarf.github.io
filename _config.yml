@@ -21,7 +21,7 @@ title                    : "CODEWARF Blog"
 title_separator          : "-"
 subtitle                 : "IT개발 블로그" # site tagline that appears below site title in masthead
 name                     : "codewarf"
-description              : "An amazing website."
+description              : # "An amazing website."
 url                      : "https://codewarf.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
