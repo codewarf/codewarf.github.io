@@ -8,6 +8,7 @@ category:
   - javascript
 tags:
   - javascript이론
+comments: true
 ---
 
 ## **18. Proxy와 Reflect**

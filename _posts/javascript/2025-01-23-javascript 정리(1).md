@@ -8,6 +8,7 @@ category:
   - javascript
 tags:
   - javascript이론
+comments: true
 ---
 본문은 앞으로 공부하고 정리해보며 기억하기 위해 정리해 본 글입니다.
 
