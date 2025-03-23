@@ -20,7 +20,7 @@ comments: true
 ✅ **인터프리터 언어**: 코드를 한 줄씩 해석하여 실행  
 ✅ **동적 타입(dynamic typing)**: 변수의 타입을 명시하지 않고 할당된 값에 따라 결정  
 ✅ **이벤트 기반(event-driven)**: 사용자 동작(클릭, 입력 등)에 반응하는 방식  
-✅ **비동기 처리(Asynchronous)**: `setTimeout()`, `Promise`, `async/await` 등을 활용한 논블로킹 방식  
+✅ **비동기 처리(Asynchronous)**: `setTimeout()`, `Promise`, `async/await` 등을 활용한 논블로킹 방식(현재 작업이 block 대기 X)
 ✅ **객체 기반(object-oriented)**: 프로토타입(prototype) 기반 객체지향 프로그래밍 지원  
 
 ---
